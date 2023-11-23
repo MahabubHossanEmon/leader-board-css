@@ -1,0 +1,13 @@
+.top-players{
+    display:grid ;
+    grid-template-columns: repeat(3, 1fr);
+}
+.top-player{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.top-player img{
+    width: 56px;
+    height: 56px;
+}
